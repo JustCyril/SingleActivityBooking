@@ -1,4 +1,4 @@
-package com.example.singleactivitybooking.view
+package com.example.singleactivitybooking.view.viewpager
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter
 class ViewPagerAdapter(fragManager: FragmentManager): FragmentPagerAdapter(fragManager) {
 
     private val mFragmentList: ArrayList<Fragment> = ArrayList()
-    private val mFragmentTitleList: ArrayList<String> = ArrayList()
 
     override fun getItem(position: Int): Fragment {
         return mFragmentList.get(position)
@@ -17,12 +16,8 @@ class ViewPagerAdapter(fragManager: FragmentManager): FragmentPagerAdapter(fragM
         return mFragmentList.size
     }
 
-    fun addFragment(fragment: Fragment, title: String) {
+    fun addFragment(fragment: Fragment) {
         mFragmentList.add(fragment)
-        mFragmentTitleList.add(title)
     }
 
-    override fun getPageTitle(position: Int): CharSequence? {
-        return mFragmentTitleList.get(position)
-    }
 }

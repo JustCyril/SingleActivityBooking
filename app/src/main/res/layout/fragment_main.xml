@@ -9,6 +9,6 @@
             android:layout_height="match_parent"
             android:textSize="30sp"
             android:gravity="center"
-            android:text="Fragment 1"/>
+            android:text="Booking Fragment"/>
 
 </android.support.constraint.ConstraintLayout>

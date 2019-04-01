@@ -9,6 +9,6 @@
             android:layout_height="match_parent"
             android:textSize="30sp"
             android:gravity="center"
-            android:text="Fragment 2"/>
+            android:text="Map Fragment"/>
 
 </android.support.constraint.ConstraintLayout>

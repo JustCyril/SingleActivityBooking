@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item android:id="@+id/menu_item_booking"
+              android:icon="@drawable/ic_baseline_store_24px"
+              android:title="@string/BOOKING"
+              android:enabled="true"
+              app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_item_map"
+          android:icon="@drawable/ic_baseline_my_location_24px"
+          android:title="@string/MAP"
+          android:enabled="true"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_item_account"
+          android:icon="@drawable/ic_baseline_account_box_24px"
+          android:title="@string/ACCOUNT"
+          android:enabled="true"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/menu_item_info"
+          android:icon="@drawable/ic_baseline_info_24px"
+          android:title="@string/INFO"
+          android:enabled="true"
+          app:showAsAction="ifRoom"/>
+
+</menu>

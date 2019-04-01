@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SingleActivityBooking</string>
+    <string name="BOOKING">Бронь</string>
+    <string name="MAP">Карта</string>
+    <string name="ACCOUNT">Пользователь</string>
+    <string name="INFO">Инфо</string>
 </resources>
